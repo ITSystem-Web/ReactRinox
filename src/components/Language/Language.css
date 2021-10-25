@@ -1,0 +1,53 @@
+
+
+
+.language{
+    position: relative;
+    text-align: center;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 150%; 
+    color: white;
+    margin-left: auto;
+   
+    
+  
+   
+  }
+
+ 
+  .langbtn{
+    color: white;
+    background-color: transparent;
+    width: 50px;
+    
+  
+  }
+  
+  .langbtn:hover{
+    background-color: grey;
+    cursor: pointer;
+  }
+  .langcontainer{
+    display: none;
+    color: white;
+    position: absolute;
+   background-color: transparent;
+   
+  
+  }
+  .langcontainer li{
+  width: 50px;
+  list-style: none;
+  
+  
+  }
+  .langcontainer li:hover{
+ background-color: grey;
+  cursor: pointer;
+  }
+  .show{
+  display: block;
+  }

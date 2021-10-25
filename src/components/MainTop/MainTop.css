@@ -1,0 +1,110 @@
+.Banner{
+    background: url(../images/Baner.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 47px;
+    
+}
+
+.banner_tittle{
+    width: 70.807%;
+    padding-top: 67px;
+    margin-bottom: 28px;
+}
+
+.banner_tittle h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: clamp(25px, 7vw, 72px);
+    line-height: 120%;
+    /* or 86px */
+    color: #FFFFFF;
+}
+
+
+.banner_container{
+    width: 45.6666%;
+    padding:22px 30px 15px 22px ;
+    background: linear-gradient(69.22deg, rgba(25, 34, 44, 0.25) 19.5%, rgba(116, 182, 255, 0.25) 102.84%);
+    backdrop-filter: blur(11px);
+    margin-bottom: 28px;
+}
+.banner_container p{
+    font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: clamp(10px, 3vw, 18px);
+line-height: 150%;
+/* or 27px */
+color: #FFFFFF;
+}
+
+.banner_btn{
+    padding-bottom: 84px;
+}
+
+
+.topbuton{
+    width: 19.4736%;
+    background: #FFFFFF;
+    font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+color: #000000;
+border: none;
+border-radius: 0%;
+padding: 10px 0px;
+
+
+}
+
+.btn-primary:hover{
+    background-color: rgb(87, 83, 83);
+    background-position: 0 -100%;
+    border: none;
+    font-weight: bold;
+    background-position: 0 100%;
+}
+@media screen and (max-width: 995px) {
+
+    .banner_tittle{
+        width: 90.807%;
+        
+     
+    }
+    
+    .banner_container{
+        width: 55.807%;
+    }
+   
+    .btn-primary{
+        width: 30.4736%;
+      
+    
+    }
+}
+
+@media screen and (max-width: 775px) {
+
+    .banner_container{
+        width: 75.807%;
+      }
+
+      .btn-primary{
+        width: 40.4736%;
+      
+    
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .btn-primary{
+        width: 55.4736%;
+      
+    
+    }
+}

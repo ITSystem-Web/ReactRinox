@@ -1,0 +1,110 @@
+.Detalii-top{
+    background: url(../../images/portofoliubaner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+    margin-bottom: 60px;
+}
+
+.container_title{
+    width:66.228% ;
+}
+
+
+.profile_tittle{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size:   clamp(25px, 14vw, 72px);
+line-height: 120%;
+color: #FFFFFF;
+}
+
+.Detalii-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+.Detalii-list{
+    width: 40.403%;
+    
+}
+
+.detalii-title h3{
+    
+    display: none;
+    font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 150%;
+color: #000000;
+}
+
+.Detalii-list li{
+    list-style: none;
+    font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+color: #000000;
+}
+
+
+.Detalii-about{
+    width: 55.701%;
+}
+.Detalii-about p{
+    font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+color: #000000;
+}
+
+.Detalii-images{
+    margin-bottom:143px ;
+
+}
+.detalii_img{
+    margin-bottom:70px ;
+}
+.detalii_img img{
+    display: block;
+    width: 100%;
+}
+
+@media screen and (max-width: 995px) {
+    .Detalii-content{
+        display: flex;
+       flex-direction: column;
+       gap: 30px;
+       margin-bottom: 33px;
+    }
+    .Detalii-list{
+        width: 100%;
+        order: 3;
+        
+        
+    }
+    .Detalii-about{
+        width: 100%;
+        order:2;
+
+    }
+    .detalii-title h3{
+      order: 1;
+     
+    }
+    .detalii-title h3{
+    
+        display: block;
+     
+    }
+    .Detalii-list h3{
+        display: none;
+    }
+    }
+    

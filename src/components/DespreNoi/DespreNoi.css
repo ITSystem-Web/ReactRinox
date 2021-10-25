@@ -1,0 +1,131 @@
+.despre-noi-top{
+    display: flex;
+    
+ margin-bottom: 140px;
+}
+
+.despre-noi-top-content{
+    width:30.666% ;
+    margin-left: 75px;
+    
+}
+.despre-noi-top-content h1{
+    padding-top:62px ;
+ font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: clamp(24px, 6vw, 72px);
+line-height: 120%;
+color: #000000;
+margin-bottom: 25px;
+}
+.despre-noi-top-about {
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #414342;
+   }
+   .despre-noi-top-img{
+       width: 59.638%;
+       margin-left: 65px;
+      
+   }
+
+
+.despre-noi-top-img img{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+.despre-noi-bottom{
+    display: flex;
+    gap: 65px;
+    margin-top:140px ;
+}
+
+.despre-noi-bottom-img img{
+    width: 100%;
+}
+.despre-noi-bottom-content{
+    width: 41.8424%;
+    margin-bottom: 134px;
+}
+
+.despre-noi-bottom-content h3{
+    font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 150%;
+color: #000000;
+margin-bottom: 25px;
+}
+.despre-noi-bottom-about{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #414342;  
+}
+@media screen and (max-width: 995px) {
+    
+    .despre-noi-bottom{
+        display: flex;
+        gap: 65px;
+        flex-direction: column;
+    }
+    .despre-noi-bottom-content{
+        width: 100%;
+        margin-bottom: 134px;
+    }
+  }
+
+  @media screen and (max-width: 755px) {
+    
+    .despre-noi-top-img{
+        display: none;
+       
+    }
+    .despre-noi-top-content{
+        /*background: url(../images/desprebg.png);
+        background-size: 100%;
+        background-repeat: no-repeat;*/
+        width: 90%;
+        margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .despre-noi-bottom{
+        display: none;
+    }
+    
+    .despre-noi-top{
+        background: url(../images/desprebg.png);
+        background-size: cover;
+        background-position: 50% 67%;
+        background-repeat: no-repeat;
+        
+    }
+    .despre-noi-top-content h1{
+    color: #FFFFFF;
+text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.42);
+font-size: clamp(24px, 12vw, 72px);
+  
+    }
+    .despre-noi-top-about {
+        
+        color: #FFFFFF;
+        text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.42);
+       }
+
+       form {
+        display: none;
+    }
+  }

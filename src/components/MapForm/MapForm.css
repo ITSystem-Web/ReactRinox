@@ -1,0 +1,9 @@
+
+.Map{
+    position: relative;
+}
+.Formular{
+    position: absolute;
+   top: 0;
+   left: -45px;
+}

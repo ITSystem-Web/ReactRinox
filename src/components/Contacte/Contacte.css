@@ -1,0 +1,153 @@
+
+.contacte-top{
+    display: flex;
+    margin-bottom: 140px;
+}
+.contacte-img{
+    width: 57.638%;
+    margin-right:61px ;
+}
+
+.contacte-img img{
+    width: 100%;
+}
+.contacte-info{
+    width:24.722% ;
+}
+.contacte-info h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: clamp(24px, 6vw, 72px);
+    line-height: 120%;
+    color: #4B4B4B;
+    margin-bottom: 31px;
+}
+.contacte-about{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #414342;
+}
+
+.contacte-list{
+    margin-top: 42px;
+    position: relative;
+}
+
+.contacte-list li{
+    list-style: none;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom:20px ;
+}
+
+
+.phone::before{
+    content: "";
+position: absolute;
+display: block;
+width:30px;
+height:30px;
+    background: url(../images/phoneicon.svg);
+    background-repeat: no-repeat;
+    top: 0;
+    left:-33px;
+}
+.mailc::before{
+    content: "";
+position: absolute;
+display: block;
+width:30px;
+height:30px;
+    background: url(../images/mailicon.svg);
+    background-repeat: no-repeat;
+    top: 50px;
+    left:-38px;
+}
+.adress::before{
+    content: "";
+position: absolute;
+display: block;
+width:30px;
+height:30px;
+    background: url(../images/locationicon.svg);
+    background-repeat: no-repeat;
+    top: 95px;
+    left:-33px;
+}
+
+
+
+
+.Banner_contacte{
+    
+    background: url(../images/bannercontacte.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 140px;
+    
+}
+.banner_flex{
+   display: flex;
+   align-items: center;
+   
+}
+.banner_tittle{
+    width: 58.3333%;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 150%;
+color: #FFFFFF;
+}
+.MapContacte{
+    height: 392px;
+}
+
+
+@media screen and (max-width: 995px) {
+    .Banner_public{
+        background: url(../images/comandamob.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 52px;
+    }
+    .banner_flex{
+        display: flex;
+       flex-direction: column;
+     }
+     .banner_tittle{
+        width: 100%;
+       
+    }
+    .contacte-top{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 140px;
+    }
+    .contacte-img{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .contacte-info{
+        width:90% ;
+        margin: 0 auto;
+    }
+
+    .contacte-list{
+        margin-left: 50px;
+
+    }
+
+   
+    
+}

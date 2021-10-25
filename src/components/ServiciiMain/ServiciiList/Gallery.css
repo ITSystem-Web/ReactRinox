@@ -1,0 +1,151 @@
+.gallery1{
+    padding:30px 0px 92px 0px  ;
+}
+.gallery2{
+    padding:30px 0px 92px 0px  ;
+    background: #D1D1D1;
+}
+
+.gallery4{
+    padding:30px 0px 92px 0px  ;
+    background: #D1D1D1;
+}
+
+.gallery-content-flex{
+    display: flex;
+    margin-bottom: 55px;
+}
+.gallery2-img img{
+    width:50%;
+    height: 351px;
+}
+
+
+.gallery2-img-item img{
+height: 250px;
+}
+.gallery-main-image{
+    height: 500px;
+}
+.gallery-main-image img{
+    height: 100%;
+}
+
+.gallery-tittle{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 38px;
+    width: 80.631%;
+}
+.about-gallery-container{
+    width: 25.087%;
+    margin-right: 140px;
+}
+
+.gallery2-container{
+    width: 32.087%;
+    margin-right: 50px;
+}
+.gallery-main-image{
+    width: 64.035%;
+}
+.gallery-main-image img{
+    width: 100%;
+}
+
+.gallery-subtittle{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom:32px ;
+}
+.about-gallery-content li{
+    list-style: none;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+.about-gallery-content{
+margin-bottom: 25px;
+}
+.gallery2-flex{
+    display: flex;
+    gap: 70px;
+}
+.gallery-images-container{
+    display: flex;
+    background: transparent;
+    gap:25px;
+    justify-content: center;
+
+   
+}
+.gallery-image-item{
+    width:17.982%;
+    
+}
+.gallery-image-item img{
+    width:100%;
+    
+}
+.gallery-btn{
+    background: #414342;
+    font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+color: #FFFFFF;
+padding: 12px 46px;
+}
+
+.gallery-btn:hover{
+    background-color: white;
+    color:#414342;
+    font-weight: bold;
+}
+.gallery-mobile-flex{
+    display: flex;
+}
+
+@media screen and (max-width: 995px) {
+    .gallery-content-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 55px;
+    }
+
+    .about-gallery-container{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .gallery-main-image{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 795px) {
+   
+    .gallery-main-image{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 495px) {
+   
+    .gallery-main-image{
+        height: 350px;
+    }
+}

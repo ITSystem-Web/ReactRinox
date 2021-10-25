@@ -1,0 +1,161 @@
+.Avantaje{
+    margin-bottom:130px ;
+}
+
+.Header_desktop{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 46px;
+}
+
+.avantaje_flex{
+    display: flex;
+}
+
+.avantaje_tab{
+   width: 52.9166%; 
+   background-color: white;
+   margin-left: 120px;
+   margin-right: 51px;
+   
+   
+}
+.avantaje_tab th{
+    
+    border-right:5px solid #B0B0B0 !important; 
+    border-bottom:5px solid #B0B0B0 !important; 
+    background-color: white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    text-align: center;
+    vertical-align: top;
+    padding-bottom: 30px;
+    font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+color: #000000;
+
+
+}
+
+
+.avantaje_tab th:last-child{
+    border-right:none !important;
+}
+.avantaje_tab td:last-child{
+    border-right:none !important;
+}
+
+.avantaje_tab td{
+    border-right:5px solid #B0B0B0 !important; 
+    background-color: white !important;
+    box-shadow: none;
+    border-bottom: 1px solid white;
+    text-align: start;
+    vertical-align: top;
+    padding: 20px 20px;
+    font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+color: #000000;
+border-left: 1px solid white;
+
+}
+
+.avantaje_img{
+    width: 32.8472%;
+    background: url(../images/avantajeimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 281px;
+}
+.avantaje_mob{
+    display: none;
+}
+
+
+@media screen and (max-width: 995px) {
+    .avantaje_flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .avantaje_tab{
+        width: 90%; 
+        background-color: white;
+        margin: 0px auto 32px auto;
+        
+     }
+     .avantaje_tab th:last-child{
+         
+        text-align: end;
+     
+    }
+    .avantaje_tab th:first-child{
+         
+        text-align: start;
+     
+    }
+
+    .avantaje_img{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .Header_desktop{
+        display: none;
+    }
+    
+    .avantaje_flex{
+        display: none;
+    }
+    .avantaje_mob{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .avantaje_mobimg{
+        width: 100%;
+        background: url(../images/avantajemob.png);
+        height: 159px;
+    }
+    .avantaje_mobimg h2{
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 150%;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.42);
+        text-align: center;
+        margin-top: 52px;
+    }
+    
+    .avantaje_content_mob{
+        width: 90%;
+        font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+/* or 27px */
+color: #000000;
+margin: 0 auto;
+
+    }
+    
+   
+}

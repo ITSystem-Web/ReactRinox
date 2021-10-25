@@ -1,0 +1,195 @@
+.slider{
+    padding: 60px 0px;
+}
+
+
+.slider_tittle{
+    width:75.614% ;
+    margin-bottom: 64px;
+}
+
+.slider_tittle h1{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.slider_flex{
+    display: flex;
+}
+
+
+
+
+.slider_content{
+    width:31.315% ;
+}
+
+.slider_description{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    color: #414342;
+    margin-bottom: 60px;
+}
+.slider_detalii{
+    font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 150%;
+color: #414342;
+}
+.slider_detalii img{
+    margin-left: 15px;
+
+}
+.slider_main{
+    width: 65%;
+    margin-top: -80px;
+    position: relative;
+}
+
+
+.bgarrow{
+    width: 50px;
+    height:42px;
+    background-color:#414342 ;
+    margin-right: 10px;
+
+}
+
+.bgarrow img{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.DetaliiArrow{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 95px;
+    left: 107px;
+    z-index: 99;
+
+}
+.DetaliiArrow a {
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 6px rgb(0 0 0 / 80%);
+    text-decoration:unset;
+}
+.DetaliiArrow a:hover {
+    opacity: 0.5;    
+}
+.carousel-indicators [data-bs-target] {
+   
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #212529;
+    margin-right: 30px;
+    
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../images/prevbtn.png);
+}
+.carousel-control-next-icon {
+    background-image: url(../images/nextbtn.png);
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  
+    width: 1rem;
+    height: 2rem;
+   
+}
+@media screen and (max-width: 1400px) {
+  
+    
+    
+
+
+    .DetaliiArrow{
+
+        top: 81px;
+        left: 93px;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+  
+    
+    
+
+
+    .DetaliiArrow{
+
+        top: 68px;
+        left: 77px;
+    }
+    
+}
+
+@media screen and (max-width: 995px) {
+  
+    .slider_flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider_content{
+        width:100% ;
+    }
+
+    .slider_main{
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+
+
+    .DetaliiArrow{
+
+        top: 79px;
+        left: 89px;
+    }
+    
+}
+
+@media screen and (max-width: 775px) {
+  
+   
+
+
+    .DetaliiArrow{
+
+        top: 59px;
+        left: 66px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .DetaliiArrow{
+
+        top: 40px;
+        left: 44px;
+    }
+    
+}

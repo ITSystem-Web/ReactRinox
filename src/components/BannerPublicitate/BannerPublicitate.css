@@ -1,0 +1,63 @@
+.Banner_public{
+    background: url(../images/banercomanda.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner_flex{
+   display: flex;
+   align-items: center;
+}
+.banner_tittle{
+    width: 58.3333%;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 150%;
+color: #FFFFFF;
+}
+
+.banbtn{
+    width: 40%;
+    text-align: right;
+}
+
+.banerbtn{
+    width: 45%;
+    background: #FFFFFF;
+    font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+color: #000000;
+border: none;
+border-radius: 0%;
+padding: 10px 0px;
+    
+}
+
+@media screen and (max-width: 995px) {
+    .Banner_public{
+        background: url(../images/comandamob.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 52px;
+    }
+    .banner_flex{
+        display: flex;
+       flex-direction: column;
+     }
+     .banner_tittle{
+        width: 100%;
+       
+    }
+
+    .banbtn{
+        width: 100%;
+        text-align: left;
+    }
+    
+}
